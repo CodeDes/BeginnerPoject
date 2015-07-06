@@ -1,10 +1,18 @@
  h2 {
-    font-family: Lobster, Monospace;
+    font-family: Lobster, Monospace; 
+    color: royalblue;
   }
 
   .thick-green-border {
-    border-color: green;
+    border-color: royalblue;
     border-width: 10px;
     border-style: solid;
     border-radius: 50%;
   }
+#App {
+    position: relative;
+    top: 100px; 
+}
+#subhead1 {
+    margin-top: 20px;
+}
