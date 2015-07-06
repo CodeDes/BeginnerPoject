@@ -1,6 +1,8 @@
  h2 {
     font-family: Lobster, Monospace; 
     color: royalblue;
+    font-size: 120px;
+    
   }
 
   .thick-green-border {
@@ -12,7 +14,19 @@
 #App {
     position: relative;
     top: 100px; 
+    margin: 0 auto;
+    width: 50%;
+    height: 500px;
 }
 #subhead1 {
     margin-top: 20px;
+}
+#MainHead {
+    position:relative;
+    top:50px;
+}
+
+#subhead1 {
+    font-size: 20px;
+    font-weight: bold;
 }

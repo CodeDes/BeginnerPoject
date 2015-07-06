@@ -7,17 +7,17 @@
 </head>
     
 <body>  
-    <div class='col-xs-4 col-xs-offset-5' id="App">
+    <div class='' id="App">
     <div class='row'>
   <div class='col-xs-8'>
-    <h2 class='text-center'>DogPhotoApp</h2>
+    <h2 class='text-center' id="MainHead">DogPhotoApp</h2>
   </div>
   <div class='col-xs-4'>
     <a href='#'><img class='img-responsive thick-green-border' src='/images/dog1.jpg'/></a>
   </div>
 </div>
 <br>
-<img src='/images/dog2.jpg' class='img-responsive'>
+<img src='/images/dog2.jpg' class='img-responsive' id="dog2">
 <br>
 <div class='row'>
   <div class='col-xs-4'>
@@ -30,18 +30,21 @@
     <button class='btn btn-block btn-danger'><i class='fa fa-trash'></i> Delete</button>
   </div>
 </div>
-<p id='subhead1'>Things dogs love:</p>
+        
+
+<h3 id="subhead1">Things Dogs Love:</h3>
 <ul>
-  <li>Pets</li>
-  <li>laser pointers</li>
+  <li>Getting Pet</li>
+  <li>Laser pointers</li>
   <li>Food</li>
 </ul>
-<p>Top 3 things gogs hate:</p>
+<h4 id='subhead2'>Things dogs hate:</h4>
 <ol>
   <li>Water</li>
-  <li>thunder</li>
+  <li>Thunder</li>
   <li>Cats</li>
 </ol>
+        
 <form action="/submit-cat-photo">
   <br>
   <div class='row'>
@@ -66,6 +69,7 @@
   </div>
   <br>
   <input type='text' class='form-control' placeholder='cat photo URL' required>
+    <br>
   <button type='submit' class='btn btn-primary'><i class='fa fa-paper-plane'></i> Submit</button>
 </form>
 
